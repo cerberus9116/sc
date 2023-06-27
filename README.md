@@ -40,9 +40,9 @@
 apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/PhoenixxZ2023/PLUS/main/ssh-plus)
 ````
 
-# OPÇÃO 2
+# OPÇÃO 2 MAQUINAS ARM64
 ```
-bash <(wget -qO- raw.githubusercontent.com/PhoenixxZ2023/PLUS/main/ssh-plus)
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/PhoenixxZ2023/PLUS/main/script/64/Plus)
 
 ```
 
