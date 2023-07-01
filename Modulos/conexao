@@ -1497,7 +1497,7 @@ exit 0' >$RCLOCAL
 		echo -e "\033[01;31m╚═╦══════════════════════════════╝\033[0m"
 		echo -ne "  \033[1;31m╠═══⟩⟩"
 			tput civis
-			echo -ne "@scottssh" | lolcat
+			echo -ne "@TURBONET2023" | lolcat
 			read -p "$(echo -e "  \033[1;31m╚═════❪\033[1;32mHOJE VAMO DE\033[1;33m\033[1;31m\033[1;37m: ")" resposta
 		if [[ "$resposta" = '1' ]]; then
 			if ps x | grep -w proxy.py | grep -v grep 1>/dev/null 2>/dev/null; then
@@ -2121,7 +2121,7 @@ elif [[ "$resposta" = '3' ]]; then
 		while true $x != "ok"; do
 			[[ ! -e '/home/sshplus' ]] && exit 0
 			clear
-			figlet 'SCOTT-PRO' | lolcat
+			figlet 'SSH-PLUS' | lolcat
 system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                $date"
